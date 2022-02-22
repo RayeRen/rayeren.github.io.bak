@@ -5,7 +5,8 @@ on:
     branches: ['google-scholar-crawler']
   schedule:
     - cron: '0 8 * * *'
-
+  watch:
+    types: [started]
 jobs:
   build:
     runs-on: ubuntu-latest
