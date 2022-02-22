@@ -17,6 +17,8 @@ jobs:
         pip3 install -r requirements.txt
     - name: Run Py
       run: python3 main.py
+      env: 
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
     - name: Commit files
       run: |
         git init
