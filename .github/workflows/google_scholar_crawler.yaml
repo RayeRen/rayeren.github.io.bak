@@ -2,7 +2,7 @@ name: Get Citation Data
 
 on:
   push:
-    branches: ['main', 'google-scholar-crawler']
+    branches: ['google-scholar-crawler']
   schedule:
     - cron: '0 8 * * *'
 
