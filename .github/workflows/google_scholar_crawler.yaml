@@ -22,13 +22,9 @@ jobs:
     - name: Commit files
       run: |
         git init
-        git config --local user.name "rayeren"
-        git config --local user.email "rayeren613@gmail.com"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${REPOSITORY}.git"
+        git config --local user.name "${GITHUB_ACTOR}"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env:
-        REPOSITORY: RayeRen/rayeren.github.io
-        USER_EMAIL: rayeren613@gmail.com
       working-directory: ./results
