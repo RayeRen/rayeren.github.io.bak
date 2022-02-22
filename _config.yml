@@ -15,6 +15,7 @@ url                      : ""
 baseurl                  : ""
 repository               : "rayeren/rayeren.github.io"
 breadcrumbs              : false # true, false (default)
+google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      : G-SWFCX99KQZ

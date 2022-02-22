@@ -33,7 +33,7 @@ To promote the communication among the Chinese ML & NLP community, we (along wit
 
 [FastSpeech: Fast, Robust and Controllable Text to Speech](https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf), **Yi Ren**, Yangjun Ruan, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu
 
-**NeurIPS 2019** \| [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span id='fs_cit'></span></strong>
+**NeurIPS 2019** \| [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - FastSpeech is the first fully parallel end-to-end speech synthesis model.
 - **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet). Our work are promoted by more than 20 media and forums, such as [机器之心](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[InfoQ](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu).
@@ -47,7 +47,7 @@ To promote the communication among the Chinese ML & NLP community, we (along wit
 
 [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558) **Yi Ren**, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu
 
-**ICLR 2021** \| [**Project**](https://speechresearch.github.io/fastspeech2/) <strong><span id='fs2_cit'></span></strong>
+**ICLR 2021** \| [**Project**](https://speechresearch.github.io/fastspeech2/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:LkGwnXOMwfcC'></span></strong>
   - FastSpeech 2 addresses the issues in FastSpeech and better solves the one-to-many mapping problem in TTS by introducing more variation information of speech as conditional inputs. 
   - We further design FastSpeech 2s, which is the first attempt to generate speech waveform from text in parallel directly.
   - **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [PaddlePaddle/Parakeet ![](https://img.shields.io/github/stars/PaddlePaddle/PaddleSpeech?style=social)](https://github.com/PaddlePaddle/PaddleSpeech), [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet) and [fairseq ![](https://img.shields.io/github/stars/pytorch/fairseq?style=social)](https://github.com/pytorch/fairseq).
