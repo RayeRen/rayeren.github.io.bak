@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yi Ren 任意"
+title: ""
 excerpt: ""
 author_profile: true
 redirect_from: 

@@ -11,10 +11,7 @@ title                    : "Yi Ren (任意)"
 title_separator          : "-"
 name                     : "Yi Ren (任意)"
 description              : "Master's student at Zhejiang University. Focusing on speech, NLP and music."
-url                      : ""
-baseurl                  : ""
 repository               : "rayeren/rayeren.github.io"
-breadcrumbs              : false # true, false (default)
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -28,7 +25,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 # Site Author
 author:
   name             : "Yi Ren (任意)"
-  avatar           : "ry_profile.jpeg"
+  avatar           : "images/ry_profile.jpeg"
   bio              : "Zhejiang University"
   location         : "Hangzhou, China"
   employer         :
