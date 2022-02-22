@@ -5,7 +5,7 @@
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) { // use CDN
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
             document.getElementById('total_cit').innerHTML = totalCitation;
             var citationEles = document.getElementsByClassName('show_paper_citations')
